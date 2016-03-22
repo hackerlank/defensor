@@ -1,0 +1,8 @@
+<uwsgi>
+    <socket>:8181</socket>
+    <chdir>/</chdir>
+    <module>defensor_wsgi</module>
+    <callable>app</callable>
+    <buffer-size>32768</buffer-size>
+    <processes>4</processes> <!-- 进程数 --> 
+</uwsgi>
